@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+.fluid_first{
+	background: #eee url("../pirmas3.png");
+	height: auto;
+	background-size: cover;
+}
+
+.fluid_second, .fluid_sixth{
+	background: #eee url("../Baltas_fonas.png");
+	height: auto;
+	background-size: cover;
+}
+
+.fluid_third{
+	background: #eee url("../Bazilikas.png");
+	height: auto;
+	background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+}
+
+.fluid_fourth{
+	background: #eee url("../fonasBaltas.png");
+	height: auto;
+	background-size: cover;
+}
+
+.fluid_fifth{
+	background: #eee url("../review.png");
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center center;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.fluid_footer{
+	background: #191919;
+	height: auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fluid_first, .fluid_second{     
+    background-position: center;
+}
+
+.second, .third, .fourth, .fifth, .sixth{ 
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+
+@media(max-width: 960px){
+	.second, .third, .fourth, .fifth, .sixth{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.container.footer{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+
+.nav a{
+	padding-top: 40px;
+}
+
+.nav .logo{
+	padding-top: 20px;
+	padding-right: 0px; 
+}
+
+.nav i{
+	padding-top: 55px;
+}
+
+.mr-auto li{
+	padding-left: 40px;
+	padding-right: 0px;
+}
+
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+}
+
+.header_nav{
+	padding-right: 0px;
+}
+
+a.nav-link{
+	color: #FFFFFF;
+	font-size: 21px;
+	font-family: "Gentium Book Basic", sans-serif;
+}
+
+.navbar{
+	background: inherit;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+	border-top: solid;
+}
+
+div.col-8, nav.navbar{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media(max-width: 1200px){
+	.logo, .social, .navbar-light, .header_nav{
+		width: 30%;
+		text-align: center;
+	}
+
+	.social{
+		padding: 30px;
+	}
+
+	.navbar-brand{
+		display: none;
+	}
+
+	.navbar-light{
+		margin: 0px;
+	}
+}
+
+.social{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+}
+
+.heading{
+	text-align: center;
+	height: auto;
+	padding: 10px;
+}
+
+h1, h2, h3, h5{
+	font-family: 'Yeseva One', cursive;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 5rem;
+	padding-top: 12%;
+}
+
+@media(max-width: 768px){
+	h1{
+		font-size: 3rem;
+	}
+}
+
+@media(min-width: 768px and max-width: 1200){
+	h1{
+		padding-top: 10px;
+	}
+}
+
+
+.heading img{
+	padding-top: 25px;
+}
+
+i{
+	color: #dab33e;
+	padding-left: 10px;
+	padding-top: 30%;
+}
+
+@media(max-width: 1200px){
+	.social i{
+		padding: 5px;
+		padding-top: 20px;
+	}
+}
+
+
+@media(max-width: 992px){
+	.social i{
+		color: #ffffff;
+	}
+}
+
+.buttons{
+	padding-bottom: 120px;
+}
+
+.buttons a{
+	text-decoration: none;
+	color: #ffffff;
+	padding-top:15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.buttons div{
+	display: inline-block;
+	padding-top: 50px;	
+}
+
+.buttons .book a{
+	background-color: rgba(0,0,0, 0.7);
+	border-color: #000000; 
+	margin-right: 30px;
+}
+
+@media(max-width: 436px){
+	div.book{
+		padding: 0px;
+	}
+	.buttons .book a{
+		margin: 0px;
+	}
+}
+
+.buttons .menu a{
+	border-color: #ffffff;
+	background-color: rgba(255,255,255, 0.7); 
+}
+
+.second_heading{
+	color: #cc9900;
+}
+
+
+.second p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center
+}
+
+
+@media(max-width: 980px){
+	.second p{
+		font-size: 1.3rem;
+	}
+}
+
+.second-logiukas{
+	padding-top: 0px;
+}
+
+.third p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+@media(max-width: 960px){
+	.third p{
+		font-size: 1.2rem;
+	}
+}
+
+.third{
+	text-align: center;
+}
+
+
+.third.logiukas{
+	padding-bottom: 20px;
+}
+
+.virejas img{
+	padding-left: 70px;
+}
+
+
+.ingredients{
+	padding: 70px;
+	background-color: rgba(0,0,0, 0.5);
+	color: #ffffff;
+}
+
+@media(max-width: 776px){
+	.ingredients{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.img-1 img , .img-2 img , .img-3 img{
+	border-radius: 50%;
+	height: 100px;
+	border: 5px solid;
+	color: rgba(56,50,48, 1);
+}
+
+
+.fourth h2, h3, h5{
+	color: #cc9900;
+}
+
+.lmain, .rmain{
+	border-bottom: solid 1px #cc9900;
+}
+
+.lsecond{
+	font-size: 0.9rem;
+}
+
+.fourth p{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.fourth .col-sm {
+	padding-left: 0px;
+}
+
+.fourth h2{
+	padding-top: 30px;
+}
+
+.salads{
+	padding-top: 9px;
+}
+
+.fourth .logiukas{
+	padding-bottom: 30px;
+}
+
+.fifth h3{
+	color: #ffffff;
+}
+
+.reviews{
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.main_review p{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 80px;
+	line-height: 2.5rem;
+	font-size: 20px;
+	font-family: "Gentium Book Basic", serif;
+}
+
+@media(max-width: 992px){
+	.main_review p{
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 2rem;
+	}
+}
+
+
+.reviews_heading{
+	padding-top: 50px;
+}
+
+
+.signature p{
+	font-size: 14px;
+	padding-bottom: 50px;
+
+}
+
+.sixth p{
+	color: #000;
+	text-align: center;
+}
+
+.paveikslai img{
+	max-width: 100%;
+}
+
+.label p{
+	color: #cc9900;
+	margin-bottom: 0px;
+}
+
+@media(max-width: 540px){
+	.sixth{
+		text-align: center;
+	}
+}
+
+.form{
+	padding-bottom: 25px;
+	margin-bottom: 0px;
+}
+
+.right_form{
+	padding-left: 40px;
+}
+
+@media(max-width: 576px){
+	.right_form{
+		padding-left: 10px;
+	}
+}
+
+.button_book{
+	margin-top: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color:  #cc9900;
+	border: none;
+	border-radius: 0px;
+}
+
+@media(max-width: 992px){
+	.paveikslai{
+		display: none;
+	}
+}
+
+.footer, .footer i, .footer h5{ 
+	color: #fff;
+}
+
+@media(max-width: 768px){
+	.payment i, .footer_social i{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+}
